@@ -2,8 +2,8 @@
     "name": "9-video",
     "version": 1,
     "creationdate": 3853630177,
-    "modificationdate": 3853783442,
-    "viewrect": [ 223.0, 309.0, 300.0, 500.0 ],
+    "modificationdate": 3853887248,
+    "viewrect": [ 1028.0, 523.0, 300.0, 500.0 ],
     "autoorganize": 1,
     "hideprojectwindow": 0,
     "showdependencies": 1,
@@ -22,8 +22,16 @@
                 "local": 1
             }
         },
-        "code": {        },
-        "externals": {        }
+        "code": {
+            "rgb2luma.genjit": {
+                "kind": "genjit"
+            }
+        },
+        "externals": {
+            "jit.gl.syphonserver.mxo": {
+                "kind": "object"
+            }
+        }
     },
     "layout": {    },
     "searchpath": {    },
